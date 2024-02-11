@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+        <li><a href="html.html">html이란</a></li>
+      <li><a href="doctype.html">DOCTYPE이란</a></li>
+      <li><a href="exel.html">엑설창 만들기</a></li>
+      <li><a href="upload.html">파일업로드</a></li>
+      <li><a href="pw.html">로그인</a></li>
+    </ol>
+    <div id="article">
+        <h2>html이란</h2>
+        <p>
+            GML->SGML->SGMLguid->HTML을 순서로 팀 버너스리라는 사람이 태그를 추가로 만들어내며 html을 완성시킴.
+            html 파일을 만들때에는 _.html형식으로 문서를 작성하는데, 여기서 html은 확정자라고도 부른다.
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
